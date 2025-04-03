@@ -19,7 +19,7 @@ This project is a Bangla Agricultural Advisor Chatbot built using Streamlit. It 
 │-- 📄 README.md              # Project documentation
 🔧 Installation
 1️⃣ Clone the repository
-  git clone https://github.com/yourusername/bangla-agriculture-chatbot.git
+  git clone https://github.com/mahjabinoyshi/bangla-agriculture-chatbot.git
   cd bangla-agriculture-chatbot
 2️⃣ Install dependencies
   pip install -r requirements.txt
