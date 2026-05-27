@@ -1,49 +1,88 @@
-# Bangla-Agricultural-Advisor-Chatbot-using-Streamlit-Without-API
-🌾 Bangla Agricultural Advisor Chatbot (Without API)
-This project is a Bangla Agricultural Advisor Chatbot built using Streamlit. It helps Bangladeshi farmers by providing farming tips, plant disease solutions, fertilizer recommendations, and information on government schemes. The chatbot works offline without relying on any external APIs.
+# Bangla Agricultural Advisor Chatbot using Streamlit (Without API)
 
-🚀 Features
-✅ Bangla NLP Chatbot – Provides answers to agricultural questions
-✅ Farming Tips & Disease Control – Offers guidance on farming techniques and plant disease prevention
-✅ Smart Search (TF-IDF) – Uses AI-based text similarity for better responses
-✅ Bangla Speech-to-Text – Allows farmers to ask questions by speaking
-✅ Offline Dataset-Based Approach – No API is needed for responses
-✅ Simple Streamlit UI – User-friendly interface for farmers
+A Bangla Agricultural Advisor Chatbot built using Streamlit to help Bangladeshi farmers with farming tips, fertilizer recommendations, plant disease solutions, and agricultural information. The chatbot works completely offline without using external APIs.
 
-📂 Project Structure
-📁 bangla_agriculture_chatbot/
-│-- 📂 data/
-│   ├── agriculture_data.csv  # Contains agricultural questions & answers
-│-- 📄 app.py                 # Main Streamlit chatbot app
-│-- 📄 requirements.txt       # Required Python libraries
-│-- 📄 README.md              # Project documentation
-🔧 Installation
-1️⃣ Clone the repository
-  git clone https://github.com/mahjabinoyshi/bangla-agriculture-chatbot.git
-  cd bangla-agriculture-chatbot
-2️⃣ Install dependencies
-  pip install -r requirements.txt
-3️⃣ Run the chatbot
-  streamlit run app.py
-📊 Dataset Format
+---
+
+## Features
+
+- Bangla NLP-based chatbot
+- Farming tips and disease control guidance
+- TF-IDF based smart search
+- Bangla Speech-to-Text support
+- Offline dataset-based response system
+- Simple and user-friendly Streamlit interface
+
+---
+
+## Project Structure
+
+```bash
+bangla_agriculture_chatbot/
+│── data/
+│   └── agriculture_data.csv
+│── app.py
+│── requirements.txt
+│── README.md
+```
+
+---
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/mahjabinoyshi/bangla-agriculture-chatbot.git
+cd bangla-agriculture-chatbot
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Dataset Format
+
 The chatbot uses a CSV file containing agricultural questions and answers in Bangla.
 
-Example format (data/agriculture_data.csv):
+Example:
 
-Category	Question (Bangla)	Answer (Bangla)
-Crop Advice	ধান চাষের জন্য উপযুক্ত সার কোনটি?	ধান চাষের জন্য ইউরিয়া, টি এস পি ও এমওপি ব্যবহার করুন।
-Disease Control	গমের পাতায় হলুদ দাগ পড়লে কি করবো?	এটি পাতার মরিচা রোগ হতে পারে, প্রোপিকোনাজল স্প্রে করুন।
-Government Scheme	কৃষকদের জন্য কি সরকারি স্কিম আছে?	বর্তমানে "কৃষক সহায়তা প্রকল্প" চালু রয়েছে। বিস্তারিত জানার জন্য স্থানীয় কৃষি অফিসে যোগাযোগ করুন।
-🎨 User Interface
-1️⃣ Enter a question in Bangla
-2️⃣ Get instant answers based on the dataset
-3️⃣ Use Speech-to-Text for voice queries
-4️⃣ Upload an image (for future plant disease detection)
+| Category | Question (Bangla) | Answer (Bangla) |
+|---|---|---|
+| Crop Advice | ধান চাষের জন্য উপযুক্ত সার কোনটি? | ধান চাষের জন্য ইউরিয়া, টি এস পি ও এমওপি ব্যবহার করুন। |
+| Disease Control | গমের পাতায় হলুদ দাগ পড়লে কি করবো? | এটি পাতার মরিচা রোগ হতে পারে, প্রোপিকোনাজল স্প্রে করুন। |
+| Government Scheme | কৃষকদের জন্য কি সরকারি স্কিম আছে? | বর্তমানে কৃষক সহায়তা প্রকল্প চালু রয়েছে। |
 
-🔥 Future Enhancements
-✅ Deep Learning-based Question Answering
-✅ Image-Based Disease Detection
-✅ Voice-Based Query for Easy Use
+---
 
-📜 License
-This project is open-source under the MIT License. Feel free to contribute!
+## User Interface
+
+- Ask questions in Bangla
+- Get instant responses from the dataset
+- Use Speech-to-Text for voice queries
+- Future support for image-based disease detection
+
+---
+
+## Future Enhancements
+
+- Deep Learning-based Question Answering
+- Image-based Plant Disease Detection
+- Voice-based Query Support
+
+---
+
+## License
+
+This project is open-source under the MIT License.
+Contributions are welcome.
